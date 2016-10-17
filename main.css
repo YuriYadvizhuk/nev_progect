@@ -9,6 +9,7 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 200px;
   margin: 0px auto;
   padding-top: 180px;
-  border-bottom: solid 2px #ddd;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.24);
 }
 
 [class*="span"] {
@@ -321,8 +322,8 @@ h1, h2, h3, h4, h5, h6 {
 .lauer4 {
   width: 670px;
   height: 170px;
-  margin-top: 200px;
-  margin-left: 140px;
+  margin-top: 187px;
+  margin-left: 182px;
   background-color: rgba(94, 110, 122, 0.9);
   position: absolute;
   box-shadow: 0 0 90px rgba(0, 0, 0, 0.6);
@@ -330,6 +331,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .lauer4 h2 {
   text-align: center;
-  margin: 55px 0;
+  margin: 70px 0;
   letter-spacing: 5px;
 }
