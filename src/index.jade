@@ -1,29 +1,30 @@
 doctype html
 html
   head
-    title nbk
+    title menu
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    // Bootstrap
-    //link(href='bootstrap/css/bootstrap.min.css', rel='stylesheet', media='screen')
     link(href='https://fonts.googleapis.com/css?family=Days+One', rel='stylesheet')
+    link(href='src/animate.css-master/animate.css', rel='stylesheet')
     link(href='main.css', rel='stylesheet', media='screen')
   body
     .container
         .layer
           .menu
-            h1 menu
-          .lauer0.shadow-all 
+            h1(data-0='opacity: 0;margin-top: 222px;transform: scale(0.9);', data-1='opacity: 1;margin-top: 115px;transform: scale(1)')  menu
+          .photo
+            img(src='src/img/114.png')(data-0='opacity: 0;right: 144px', data-1='opacity: 1;right: 244px;')
+          .lauer0.shadow-all(data-20='opacity: 0;left: 0px;', data-30='opacity: 1;', data-100='left: -115px;')
             h2 september 9
             p Today. our chef bring you througr a travel around the word, with an entree from Europse, our best vtea from American, and an authenic dessert from Asia.
            //- желтый
           .roww
-            .lauer1.shadow-all
-             .lauer1-1.shadow-all
+            .lauer1.shadow-all(data-440='opacity: 0;', data-550='opacity: 1;')
+             .lauer1-1.shadow-all(data-640='margin-left: 0px', data-750='margin-left: -70px;')
               .text
                 h4 from the grill
                 h2 bref steak
                 p Aged for extra flevour tenderness, rebbed with our unique blend of spices and slow roasted
-               .lauer1-2.shadow-all
+               .lauer1-2.shadow-all(data-700='margin-right: 0px', data-750='margin-right: -65px')
           .roww
             .lauer2.shadow-all
               .lauer2-1.shadow-all
@@ -45,5 +46,16 @@ html
             .lauer4  
               h2 done Yuri Yadvizhuk
 
-    //- script(src='http://code.jquery.com/jquery.js')
+
+    //- script(src='https://code.jquery.com/jquery-2.2.4.min.js')
+    //- script(src='https://cdn.jsdelivr.net/kute.js/1.5.0/kute.min.js')
+    //- script(src='https://cdn.jsdelivr.net/kute.js/1.5.0/kute-jquery.min.js')
+    //- script(src='src/kute.js/kute.js')
+    //- script(src='src/kute.js/kute-jquery.js')
+    //- script(src='src/kute.js/kute-css.js')
+    script(src='https://code.jquery.com/jquery-3.1.1.min.js', integrity='sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=', crossorigin='anonymous')
+
+    script(src='/src/skrollr.min.js')
+    script(src='/src/main.js')
+
     //- script(src='js/bootstrap.min.js')
