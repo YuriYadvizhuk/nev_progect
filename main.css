@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 180px;
   border-bottom: solid 2px rgba(255, 255, 255, 0.24);
 }
+
 
 [class*="span"] {
   float: left;
@@ -167,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   z-index: -4;
   left: -425px;
-  bottom: -800px;
+  bottom: -500px;
   transform: rotate(124deg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -255,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 .lauer2 {
   width: 940px;
   height: 490px;
-  /*margin-top: 180px;*/
+  margin-top: 180px;
   margin-left: -135px;
   background-color: rgba(205, 81, 75, 0.95);
 }
@@ -306,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
 .lauer3 {
   width: 940px;
   height: 490px;
-  margin-top: 180px;
+  margin-top: -180px;
   margin-left: -70px;
   background-color: rgba(152, 114, 84, 0.95);
 }
