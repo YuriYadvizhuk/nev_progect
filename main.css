@@ -1,5 +1,5 @@
 * {
-  transition: all .5s;
+  transition: all .3s;
   box-sizing: border-box;
 }
 
@@ -338,11 +338,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 375px) {
-  .container body {
-    width: 320px;
+  .container {
+    max-width: 320px;
   }
   .layer {
-    width: 250px;
+    max-width: 220px;
   }
   .lauer0 {
     transform: scale(0.45);

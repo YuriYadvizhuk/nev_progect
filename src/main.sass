@@ -1,5 +1,5 @@
 *
-  transition: all .5s
+  transition: all .3s
   box-sizing: border-box
 
 body
@@ -250,20 +250,6 @@ h1, h2, h3, h4, h5, h6
   margin-left: -70px
   background-color: rgba(152, 114, 84, 0.95)
 
-// .lauer3::after 
-//   content: ""
-//   width: 100%
-//   height: 100%
-//   position: relative
-//   display: block
-//   z-index: -4
-//   right: 230px
-//   bottom: 245px
-//   transform: rotate(121deg)
-//   background-image: url(src/img/117.png)
-//   background-size: cover
-//   background-repeat: no-repeat
-
 
 .lauer3-1
   height: 390px
@@ -304,16 +290,21 @@ h1, h2, h3, h4, h5, h6
 
 
 @media screen and (max-width: 375px)
-  .container body
-    width: 320px
+
+  .container 
+    max-width: 320px
 
   .layer
-    width:  250px
+    max-width:  220px
 
   .lauer0
-    transform: scale(.45);
+    transform: scale(.45)
     margin-left: -150px
 
+  // .lauer1, .lauer2, .lauer3, 
+  // .lauer4
+    // transform: scale(.30)
+    // margin-left: -182px
   .menu h1 
     font-size: 2em
     letter-spacing: 1em
