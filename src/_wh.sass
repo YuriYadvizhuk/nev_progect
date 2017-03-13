@@ -1,0 +1,178 @@
+$h170: 170px
+$h290: 290px
+$h330: 330px
+$h390: 390px
+$h420: 420px
+$h450: 450px
+$h490: 490px
+
+$w200: 200px
+$w240: 240px
+$w290: 290px
+$w335: 335px
+$w375: 375px
+$w430: 430px
+$w440: 440px
+$w670: 670px
+$w650: 650px
+$w740: 740px
+$w770: 770px
+$w880: 880px
+$w940: 940px
+
+$tw400: 400px
+$tw210: 210px
+
+$hw450: 450px
+
+
+
+
+$mh1000: 1000px
+
+
+
+
+.container
+  width: $w740
+
+.roww::after
+  width: $w200
+
+.roww
+  .l1
+    width: $w290
+    height: $h290
+  .l2
+    width: 100%
+    height: 100%
+  .l3
+    width: 100%
+    height: 100%
+.photo
+  height: 0px
+  width: 0px
+  img
+    width: $hw450
+    height: $hw450
+
+.lauer0
+  width: $w650
+  height: $h330
+  p
+    width: $tw400
+
+.layer
+  width: $w740
+  // min-height: $mh1000
+
+.lauer1, .lauer2, .lauer3
+  width: $w940
+  height: $h490
+
+.lauer1-1, .lauer3-1
+  height: $h390
+  width: $w880
+
+.lauer1-2, .lauer3-2
+  height: $h450
+  width: $w430
+
+.lauer2-1
+  height: $h420
+  width: $w770
+
+.lauer2-2
+  height: $h390
+  width: $w440
+  .text
+    width: $w335
+
+.lauer4
+  width: $w670
+  height: $h170
+
+.text
+  width: $w375
+  height: $h330
+  h2
+    &::after
+      width: 240px
+    &::before
+      width: $w240
+  p
+    width: $tw210
+
+@media screen and (max-width: 775px)
+	.container
+	  width: $w740 / 3
+
+
+	.roww::after
+	  width: $w200 / 2
+
+	.roww
+	  .l1
+	    width: $w290 /2
+	    height: $h290 /2
+	  .l2
+	    width: 100%
+	    height: 100%
+	  .l3
+	    width: 100%
+	    height: 100%
+	.photo
+	  height: 0px
+	  width: 0px
+	  img
+	    width: $hw450 / 2
+	    height: $hw450 / 2
+
+	.lauer0
+	  width: $w650 / 2
+	  height: $h330 / 2
+	  p
+	    width: $tw400 / 2
+
+	.layer
+	  width: $w740 / 2
+	  // min-height: $mh1000 / 2
+
+	.lauer1, .lauer2, .lauer3
+	  width: $w940 / 2
+	  height: $h490 / 2
+
+	.lauer1-1, .lauer3-1
+	  height: $h390 / 2
+	  width: $w880 / 2
+
+	.lauer1-2, .lauer3-2
+	  height: $h450 / 2
+	  width: $w430 / 2
+
+	.lauer2-1
+	  height: $h420 / 2
+	  width: $w770 / 2
+
+	.lauer2-2
+	  height: $h390 / 2
+	  width: $w440 / 2
+	  .text
+	    width: $w335 / 2
+
+	.lauer4
+	  width: $w670 / 2
+	  height: $h170 / 2
+
+	.text
+	  width: $w375 / 2
+	  height: $h330 / 2
+	  h2
+	    &::after
+	      width: 240px
+	    &::before
+	      width: $w240 / 2
+	  p
+	    width: $tw210 / 2
+
+
