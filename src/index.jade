@@ -6,27 +6,21 @@ html
 
     link(href='https://fonts.googleapis.com/css?family=Days+One', rel='stylesheet')
     link(href='main.css', rel='stylesheet', media='screen')
-  body
+  body#skrollr-body(style="height: 2511px")
     .container
       .layer
         .menu
-          h1( data-200-top='transform: scale(0.8);', 
-              data-50-top='transform: scale(1)') menu
+          h1( data-200-top='transform: scale(0.8);', data-50-top='transform: scale(1)') menu
         .photo
-          img(src='src/img/114.png',data-400-top='opacity: 0; transform: scale(0.6);', 
-                                    data-0-top='opacity: 1; transform: scale(1);')
-        .lauer0.shadow-all( data-300-top='opacity: 0; left: 100px;', 
-                            data-200-top='opacity: 1; left: 0px;')
+          img(src='src/img/114.png',data--100-top='opacity: 0; transform: scale(0.3);',  data-50-top='opacity: 1; transform: scale(0.5);')
+        .lauer0.shadow-all( data-300-top='opacity: 0; left: 100px;', data-200-top='opacity: 1; left: 0px;')
           h2 september 9
           p
             | Today. our chef bring you througr a travel around the word, with an entree from Europse, our best vtea from American, and an authenic dessert from Asia.
         .roww
-          img.l1(src='src/img/115.png',   data-370='opacity: 0; left: -0px;',
-                                          data-871='opacity: 1; left: -165px;')
-          .lauer1.shadow-all( data--100-bottom='opacity: 1;', 
-                              data-100-top='opacity: 1;')
-            .lauer1-1.shadow-all( data--50-bottom='opacity: 0;margin-left: 100px', 
-                                  data--100-bottom='margin-left: -70px;opacity: 1;')
+          img.l1(src='src/img/115.png',data-370='opacity: 0; left: -0px;', data-871='opacity: 1; left: -165px;')
+          .lauer1.shadow-all( data--100-bottom='opacity: 1;', data-100-top='opacity: 1;')
+            .lauer1-1.shadow-all( data--50-bottom='opacity: 0;margin-left: 100px', data--100-bottom='margin-left: -70px;opacity: 1;')
               .text
                 h4 from the grill
                 h2 bref steak

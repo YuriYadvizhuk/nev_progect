@@ -1,335 +1,193 @@
 * {
   transition: all .3s;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   font: 1em 'PT Sans', Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Days One', sans-serif;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 body {
   background-color: #D1DAE3;
-  color: #333;
-}
+  color: #333; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #eee;
-}
+  color: #eee; }
 
 .roww::after {
-  border-bottom: solid 2px rgba(255, 255, 255, 0.24);
-}
+  border-bottom: solid 2px rgba(255, 255, 255, 0.24); }
 
 [class*="layer"] {
-  box-shadow: 0 0 90px rgba(0, 0, 0, 0.6);
-}
+  box-shadow: 0 0 90px rgba(0, 0, 0, 0.6); }
 
 .shadow-all {
-  box-shadow: 0 0 90px rgba(0, 0, 0, 0.6);
-}
+  box-shadow: 0 0 90px rgba(0, 0, 0, 0.6); }
 
 .layer {
-  background: #2D3A4B;
-}
+  background: #2D3A4B; }
 
 .lauer0 {
   background-color: rgba(94, 110, 122, 0.9);
-  box-shadow: 0 0 70px rgba(0, 0, 0, 0.9);
-}
-
-.lauer0 h2 {
-  border-bottom: solid #ccc;
-}
-
-.lauer0 p {
-  color: #ccc;
-}
+  box-shadow: 0 0 70px rgba(0, 0, 0, 0.9); }
+  .lauer0 h2 {
+    border-bottom: solid #ccc; }
+  .lauer0 p {
+    color: #ccc; }
 
 .lauer1 {
   background-color: rgba(180, 184, 72, 0.9);
-  box-shadow: 0 0 90px rgba(0, 0, 0, 0.8);
-}
+  box-shadow: 0 0 90px rgba(0, 0, 0, 0.8); }
 
 .text {
   border-top: 1px solid #DFDFDF;
-  border-bottom: 1px solid #DFDFDF;
-}
-
-.text h4 {
-  color: #D6A594;
-}
-
-.text h2 {
-  color: #6B808C;
-  border-top: 2px solid #DFDFDF;
-  border-bottom: 2px solid #DFDFDF;
-}
-
-.text h2::after {
-  border-top: 2px solid #DFDFDF;
-}
-
-.text h2::before {
-  border-bottom: 2px solid #DFDFDF;
-}
-
-.text p {
-  color: #6B808C;
-}
+  border-bottom: 1px solid #DFDFDF; }
+  .text h4 {
+    color: #D6A594; }
+  .text h2 {
+    color: #6B808C;
+    border-top: 2px solid #DFDFDF;
+    border-bottom: 2px solid #DFDFDF; }
+    .text h2::after {
+      border-top: 2px solid #DFDFDF; }
+    .text h2::before {
+      border-bottom: 2px solid #DFDFDF; }
+  .text p {
+    color: #6B808C; }
 
 .lauer2 {
-  background-color: rgba(205, 81, 75, 0.95);
-}
+  background-color: rgba(205, 81, 75, 0.95); }
 
 .lauer2-2 {
-  background-color: #fff;
-}
+  background-color: #fff; }
 
 .lauer3 {
-  background-color: rgba(152, 114, 84, 0.95);
-}
+  background-color: rgba(152, 114, 84, 0.95); }
 
 .lauer3-1 {
   background: #ddd;
-  background-color: white;
-}
+  background-color: white; }
 
 .lauer4 {
   background-color: rgba(94, 110, 122, 0.9);
-  box-shadow: 0 0 90px rgba(0, 0, 0, 0.6);
-}
+  box-shadow: 0 0 90px rgba(0, 0, 0, 0.6); }
 
 .container {
-  width: 740px;
-}
+  width: 740px; }
 
 .roww::after {
-  width: 200px;
-}
+  width: 200px; }
 
 .roww .l1 {
   width: 290px;
-  height: 290px;
-}
+  height: 290px; }
 
 .roww .l2 {
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 .roww .l3 {
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 .photo {
   height: 0px;
-  width: 0px;
-}
-
-.photo img {
-  width: 450px;
-  height: 450px;
-}
+  width: 0px; }
+  .photo img {
+    width: 450px;
+    height: 450px; }
 
 .lauer0 {
   width: 650px;
-  height: 330px;
-}
-
-.lauer0 p {
-  width: 400px;
-}
+  height: 330px; }
+  .lauer0 p {
+    width: 400px; }
 
 .layer {
-  width: 740px;
-}
+  width: 740px; }
 
 .lauer1, .lauer2, .lauer3 {
   width: 940px;
-  height: 490px;
-}
+  height: 490px; }
 
 .lauer1-1, .lauer3-1 {
   height: 390px;
-  width: 880px;
-}
+  width: 880px; }
 
 .lauer1-2, .lauer3-2 {
   height: 450px;
-  width: 430px;
-}
+  width: 430px; }
 
 .lauer2-1 {
   height: 420px;
-  width: 770px;
-}
+  width: 770px; }
 
 .lauer2-2 {
   height: 390px;
-  width: 440px;
-}
-
-.lauer2-2 .text {
-  width: 335px;
-}
+  width: 440px; }
+  .lauer2-2 .text {
+    width: 335px; }
 
 .lauer4 {
   width: 670px;
-  height: 170px;
-}
+  height: 170px; }
 
 .text {
   width: 375px;
-  height: 330px;
-}
-
-.text h2::after {
-  width: 240px;
-}
-
-.text h2::before {
-  width: 240px;
-}
-
-.text p {
-  width: 210px;
-}
-
-@media screen and (max-width: 775px) {
-  .container {
-    width: 246.66667px;
-  }
-  .roww::after {
-    width: 100px;
-  }
-  .roww .l1 {
-    width: 145px;
-    height: 145px;
-  }
-  .roww .l2 {
-    width: 100%;
-    height: 100%;
-  }
-  .roww .l3 {
-    width: 100%;
-    height: 100%;
-  }
-  .photo {
-    height: 0px;
-    width: 0px;
-  }
-  .photo img {
-    width: 225px;
-    height: 225px;
-  }
-  .lauer0 {
-    width: 325px;
-    height: 165px;
-  }
-  .lauer0 p {
-    width: 200px;
-  }
-  .layer {
-    width: 370px;
-  }
-  .lauer1, .lauer2, .lauer3 {
-    width: 470px;
-    height: 245px;
-  }
-  .lauer1-1, .lauer3-1 {
-    height: 195px;
-    width: 440px;
-  }
-  .lauer1-2, .lauer3-2 {
-    height: 225px;
-    width: 215px;
-  }
-  .lauer2-1 {
-    height: 210px;
-    width: 385px;
-  }
-  .lauer2-2 {
-    height: 195px;
-    width: 220px;
-  }
-  .lauer2-2 .text {
-    width: 167.5px;
-  }
-  .lauer4 {
-    width: 335px;
-    height: 85px;
-  }
-  .text {
-    width: 187.5px;
-    height: 165px;
-  }
+  height: 330px; }
   .text h2::after {
-    width: 240px;
-  }
+    width: 240px; }
   .text h2::before {
-    width: 120px;
-  }
+    width: 240px; }
   .text p {
-    width: 105px;
-  }
-}
+    width: 210px; }
+
+@media screen and (max-width: 320px) {
+  .lauer0 {
+    width: 240px;
+    height: 240px; } }
 
 .container {
   margin: 0 auto;
-  width: 100%;
-}
+  width: 100%; }
 
 .roww::after {
   content: "";
   display: block;
   right: 50px;
   margin: 0px auto;
-  padding-top: 180px;
-}
+  padding-top: 180px; }
 
 [class*="span"] {
   float: left;
   display: inline;
-  margin-right: 20px;
-}
-
-[class*="span"]:last-child {
-  margin-right: 0;
-}
+  margin-right: 20px; }
+  [class*="span"]:last-child {
+    margin-right: 0; }
 
 [class*="layer"]:last-child {
-  margin: auto;
-}
+  margin: auto; }
 
 .layer {
-  margin: 150px 0px 250px 0px;
-}
+  margin: 150px 0px 250px 0px; }
 
 .menu {
-  margin-top: 100px;
-}
-
-.menu h1 {
-  position: relative;
-  text-align: center;
-  font-size: 7em;
-  margin: 0px;
-  z-index: 10;
-  font-weight: bold;
-  margin-left: 60px;
-  letter-spacing: 60px;
-  z-index: 15;
-}
+  margin-top: 100px; }
+  .menu h1 {
+    position: relative;
+    text-align: center;
+    font-size: 7em;
+    margin: 0px;
+    z-index: 10;
+    font-weight: bold;
+    margin-left: 60px;
+    letter-spacing: 60px;
+    z-index: 15; }
 
 .photo img {
   position: relative;
@@ -340,31 +198,24 @@ h1, h2, h3, h4, h5, h6 {
   transform: rotate(92deg);
   background-image: url(src/img/114.png);
   background-size: cover;
-  z-index: -1;
-}
+  z-index: -1; }
 
 .lauer0 {
   position: relative;
-  margin: -60px 0 0 160px;
-}
-
-.lauer0 h2 {
-  text-align: center;
-  margin: 100px 0 0 110px;
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  padding-bottom: 20px;
-}
-
-.lauer0 p {
-  margin-left: 110px;
-  line-height: 1.9em;
-}
+  margin: -60px 0 0 160px; }
+  .lauer0 h2 {
+    text-align: center;
+    margin: 100px 0 0 110px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 20px; }
+  .lauer0 p {
+    margin-left: 110px;
+    line-height: 1.9em; }
 
 .lauer1 {
-  margin-left: -70px;
-}
+  margin-left: -70px; }
 
 .roww .l1 {
   position: relative;
@@ -373,8 +224,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 219px;
   top: 633px;
   transform: rotate(281deg) !important;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .roww .l2 {
   position: relative;
@@ -384,8 +234,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: -500px;
   transform: rotate(124deg);
   background-size: cover;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
 
 .roww .l3 {
   position: relative;
@@ -395,58 +244,45 @@ h1, h2, h3, h4, h5, h6 {
   bottom: -500px;
   transform: rotate(121deg);
   background-size: cover;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
 
 .lauer1-1 {
   background-color: white;
   margin-left: -70px;
-  z-index: 10;
-}
+  z-index: 10; }
 
 .text {
   margin-top: 30px;
   margin-left: 70px;
   padding: 10px 25px;
   float: left;
-  text-align: center;
-}
-
-.text h4 {
-  letter-spacing: 5px;
-  padding-top: 0px;
-  margin: 55px 0 0 0;
-}
-
-.text h2 {
-  letter-spacing: 10px;
-  padding: 10px 0;
-  margin: 30px 0;
-  position: relative;
-}
-
-.text h2::after {
-  content: "";
-  display: block;
-  top: 20px;
-  margin: 0px auto;
-  position: relative;
-}
-
-.text h2::before {
-  content: "";
-  display: block;
-  bottom: 20px;
-  position: relative;
-  margin: 0px auto;
-}
-
-.text p {
-  margin: 15px auto;
-  letter-spacing: 1px;
-  line-height: 1.9em;
-  font-size: 14px;
-}
+  text-align: center; }
+  .text h4 {
+    letter-spacing: 5px;
+    padding-top: 0px;
+    margin: 55px 0 0 0; }
+  .text h2 {
+    letter-spacing: 10px;
+    padding: 10px 0;
+    margin: 30px 0;
+    position: relative; }
+    .text h2::after {
+      content: "";
+      display: block;
+      top: 20px;
+      margin: 0px auto;
+      position: relative; }
+    .text h2::before {
+      content: "";
+      display: block;
+      bottom: 20px;
+      position: relative;
+      margin: 0px auto; }
+  .text p {
+    margin: 15px auto;
+    letter-spacing: 1px;
+    line-height: 1.9em;
+    font-size: 14px; }
 
 .lauer1-2 {
   float: right;
@@ -454,13 +290,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -30px;
   background-image: url(src/img/111.jpg);
   background-size: cover;
-  background-position: right bottom;
-}
+  background-position: right bottom; }
 
 .lauer2 {
   margin-top: -180px;
-  margin-left: -135px;
-}
+  margin-left: -135px; }
 
 .lauer2-1 {
   position: relative;
@@ -469,30 +303,24 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 70px;
   z-index: 10;
   background-image: url(src/img/112.jpg);
-  background-size: cover;
-}
+  background-size: cover; }
 
 .lauer2-2 {
   float: left;
   margin-left: -175px;
   margin-top: 100px;
   z-index: 10;
-  position: absolute;
-}
-
-.lauer2-2 .text {
-  margin-left: 50px;
-}
+  position: absolute; }
+  .lauer2-2 .text {
+    margin-left: 50px; }
 
 .lauer3 {
   margin-top: -180px;
-  margin-left: -70px;
-}
+  margin-left: -70px; }
 
 .lauer3-1 {
   margin-left: -70px;
-  z-index: 10;
-}
+  z-index: 10; }
 
 .lauer3-2 {
   float: right;
@@ -500,24 +328,50 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -30px;
   background-image: url(src/img/113.jpg);
   background-size: cover;
-  background-position: right bottom;
-}
+  background-position: right bottom; }
 
 .roww-bottom::after {
   content: "";
   display: block;
   width: 0px;
-  padding-top: 300px;
-}
+  padding-top: 300px; }
 
 .lauer4 {
   margin-top: 187px;
   margin-left: 182px;
-  position: absolute;
-}
+  position: absolute; }
+  .lauer4 h2 {
+    text-align: center;
+    margin: 70px 0;
+    letter-spacing: 5px; }
 
-.lauer4 h2 {
-  text-align: center;
-  margin: 70px 0;
-  letter-spacing: 5px;
-}
+@media screen and (max-width: 425px) {
+  .layer {
+    width: 220px; }
+  .menu {
+    margin-top: 60px; }
+    .menu h1 {
+      font-size: 4.1em;
+      margin-left: -35px;
+      letter-spacing: 20px; }
+  .lauer0 {
+    width: 220px;
+    height: 180px;
+    margin: -30px 0 0 40px; }
+    .lauer0 h2 {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      padding: 10px 4px;
+      margin: 15px 0 0 10px;
+      font-size: 1.2em; }
+    .lauer0 p {
+      margin-left: 11px;
+      line-height: 1.3em;
+      width: 210px;
+      font-size: .8em; } }
+
+.photo img {
+  right: 190px;
+  bottom: 160px;
+  z-index: 0;
+  transform: scale(0.33); }

@@ -1,8 +1,8 @@
-$(document).ready(function () {
-  skrollr.init({
-    smoothScrolling: true
-  });
-});
+// $(document).ready(function () {
+//   skrollr.init({
+//     smoothScrolling: true
+//   });
+// });
 // $(document).ready(function() {
 // // build the tween object
 // var tween = $('.lauer0').KUTE('fromTo',
@@ -16,3 +16,16 @@ $(document).ready(function () {
 
 // });
 
+( function( $ ) {
+    // Init Skrollr
+    var s = skrollr.init({
+        render: function(data) {
+            //Debugging - Log the current scroll position.
+            //console.log(data.curTop);
+        }
+    });
+} )( jQuery );
+
+// $function() {
+// 	return (/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
+// }
