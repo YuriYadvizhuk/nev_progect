@@ -1,34 +1,156 @@
 
 
-@media screen and (max-width: 425px)
+@media screen and (max-width: 320px)
+	.lauer0
+		width: $w240
+		height: $w240
+
+@media screen and (max-width: 525px)
+	.roww::after
+			padding-top: 80px
+
+	.roww-bottom::after
+		padding-top: 130px
+		
 	.layer 
-		width: 220px
+		width: 250px
 
 	.menu 
-		margin-top: 60px
+		margin-top: 59px
 		h1 
-			font-size: 4.1em
-			margin-left: -35px
+			font-size: 3em
+			margin-left: 10px
 			letter-spacing: 20px
+			padding-top: 15px
 
 	.lauer0 
-		width: 220px
-		height: 180px
-		margin: -30px 0 0 40px;
+		width: 235px
+		height: 150px
+		margin: -25px 0 0 40px;
 		h2
 			text-transform: uppercase
 			letter-spacing: 3px
 			padding: 10px 4px
 			margin: 15px 0 0 10px
-			font-size: 1.2em
+			font-size: 1em
 		p
 			margin-left: 11px;
-			line-height: 1.3em;
-			width: 210px
+			line-height: 1em;
+			width: 200px
 			font-size: .8em
 			
-.photo img 
-	right: 280px;
-	bottom: 115px;
-	z-index: 0;
-	transform: scale(0.33)
+	.photo img 
+		right: 223px;
+		bottom: 171px;
+		z-index: 0;
+		transform: scale(0.31) !important
+
+	.roww
+
+		.l1
+			width: 130px
+			height: 130px
+			right: 104px
+			top: 151px
+		.l2
+			left: -130px
+			bottom: -164px
+		.l3
+			right: 104px
+			bottom: -179px
+			transform: rotate(346deg)
+
+	.layer1-1
+		width: 400px
+		height: 100px
+
+	.lauer1, .lauer2, .lauer3,
+		width: 340px
+		height: 180px
+		margin-left: -30px
+		margin-top: -80px
+	.lauer2
+		margin-left: -60px
+
+
+
+
+	.lauer1-1, .lauer3-1
+		height: 160px
+		width: 310px
+		margin-left: -30px
+		top: 20px
+
+
+	.lauer1-2, .lauer3-2
+		height: 190px
+		width: 170px
+		margin-right: -40px
+		margin-top: -20px
+
+	.lauer2-1
+		height: 160px
+		width: 260px
+		margin-top: 30px
+		margin-right: -30px
+
+	.lauer2-2
+		height: 160px
+		width: 190px
+		margin-left: -60px
+		margin-top: 30px
+		.text
+			width: 150px
+			height: 140px
+			margin-left: 17px 
+
+
+	.lauer4
+		width: 250px
+		height: 70px
+		margin-top: 80px
+		margin-left: 40px
+		h2
+			margin: 5px 0
+			font-size: .8em
+
+
+	.text
+		width: 150px
+		height: 140px
+
+	.text
+		margin-top: 10px
+		margin-left: 10px
+		padding: 10px 
+		float: left
+		text-align: center
+		h4
+			letter-spacing: 0px
+			padding-top: 0px
+			margin: 0px
+			font-size: .7em
+		h2
+			letter-spacing: 3px
+			padding: 10px 0px
+			margin: 10px 0
+			position: relative
+			font-size: .6em 
+			&::after
+				content: ""
+				display: block
+				top: 5px
+				margin: 1px auto
+				position: relative
+			&::before
+				content: ""
+				display: block
+				bottom: 5px
+				position: relative
+				margin: 1px auto
+		p
+			margin: 0px auto
+			letter-spacing: 1px
+			line-height: 1em
+			font-size: 10px
+			width: 140px

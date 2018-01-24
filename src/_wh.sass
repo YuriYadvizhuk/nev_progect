@@ -99,11 +99,14 @@ $mh1000: 1000px
     &::after
       width: 240px
     &::before
-      width: $w240
+      width: 240px
   p
     width: $tw210
 
-@media screen and (max-width: 320px)
-	.lauer0
-	  width: $w240
-	  height: $w240
+@media screen and (max-width: 425px)
+  .text
+    h2
+      &::after
+        width: 100px
+      &::before
+        width: 100px
